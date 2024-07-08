@@ -35,4 +35,4 @@ jobs:
       run: |
         #!/usr/bin/env bash
         #skopeo copy docker://gcr.io/kaniko-project/executor:v1.13.0 docker://weiyigeek/kaniko-executor:v1.13.0
-        skopeo copy docker://docker.io/bitnami/kube-state-metrics:2.12.0 docker://registry.cn-shanghai.aliyuncs.com/dockerimgtools/k8s:kube-state-metrics.2.12.0
+        skopeo copy docker://docker.io/python:3.6-alpine docker://registry.cn-shanghai.aliyuncs.com/dockerimgtools/k8s:python.3.6-alpine
