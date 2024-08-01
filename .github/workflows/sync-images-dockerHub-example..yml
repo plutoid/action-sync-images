@@ -35,4 +35,4 @@ jobs:
       run: |
         #!/usr/bin/env bash
         #skopeo copy docker://gcr.io/kaniko-project/executor:v1.13.0 docker://weiyigeek/kaniko-executor:v1.13.0
-        skopeo copy docker://docker.io/_/busybox docker://registry.cn-shanghai.aliyuncs.com/dockerimgtools/helmpack:busybox
+        skopeo copy docker://docker.io/busybox docker://registry.cn-shanghai.aliyuncs.com/dockerimgtools/helmpack:busybox
