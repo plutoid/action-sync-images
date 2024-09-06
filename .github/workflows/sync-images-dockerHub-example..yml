@@ -35,4 +35,4 @@ jobs:
       run: |
         #!/usr/bin/env bash
         #skopeo copy docker://gcr.io/kaniko-project/executor:v1.13.0 docker://weiyigeek/kaniko-executor:v1.13.0
-        skopeo copy docker://docker.io/elastic/filebeat:7.17.23  docker://registry.cn-shanghai.aliyuncs.com/dockerimgtools/helmpack:filebeat7.17.23
+        skopeo copy docker://docker.io/duplocloud/filebeat-oss:7.11.1-ea412a0b9324199340ca9ad7e6d45631c26b5ae5-k8s-custom  docker://registry.cn-shanghai.aliyuncs.com/dockerimgtools/helmpack:filebeat-oss7.11
