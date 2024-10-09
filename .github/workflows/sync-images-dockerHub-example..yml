@@ -35,4 +35,4 @@ jobs:
       run: |
         #!/usr/bin/env bash
         #skopeo copy docker://gcr.io/kaniko-project/executor:v1.13.0 docker://weiyigeek/kaniko-executor:v1.13.0
-        skopeo copy docker://docker.io/gradle:6.9.4-jdk17-focal  docker://registry.cn-shanghai.aliyuncs.com/dockerimgtools/dockerimgtools:gradle.6.9.4-jdk17-focal
+        skopeo copy docker://docker.io/gradle:6.9.4-jdk8-focal  docker://registry.cn-shanghai.aliyuncs.com/dockerimgtools/dockerimgtools:gradle.6.9.4-jdk8-focal
