@@ -35,4 +35,4 @@ jobs:
       run: |
         #!/usr/bin/env bash
         #skopeo copy docker://gcr.io/kaniko-project/executor:v1.13.0 docker://weiyigeek/kaniko-executor:v1.13.0
-        skopeo copy docker://docker.io/localstack/localstack:3.8.1  docker://registry.cn-shanghai.aliyuncs.com/dockerimgtools/dockerimgtools:localstack-3.8.1
+        skopeo copy docker://docker.io/maven:3.6.3-jdk-8  docker://registry.cn-hangzhou.aliyuncs.com/dockerimgtools/dockerimgtools:maven-3.6.3-jdk-8
