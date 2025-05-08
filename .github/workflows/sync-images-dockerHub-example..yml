@@ -35,4 +35,4 @@ jobs:
       run: |
         #!/usr/bin/env bash
         #skopeo copy docker://gcr.io/kaniko-project/executor:v1.13.0 docker://weiyigeek/kaniko-executor:v1.13.0
-        skopeo copy docker://docker.io/openjdk:8-jdk-slim  docker://registry.cn-shanghai.aliyuncs.com/dockerimgtools/dockerimgtools:openjdk-8-jdk-slim
+        skopeo copy docker://docker.io/library/python:3.11.6-slim  docker://registry.cn-shanghai.aliyuncs.com/dockerimgtools/dockerimgtools:python.3.11.6-slim
