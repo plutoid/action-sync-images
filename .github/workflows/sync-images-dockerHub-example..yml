@@ -36,4 +36,4 @@ jobs:
         #!/usr/bin/env bash
         #skopeo copy docker://gcr.io/kaniko-project/executor:v1.13.0 docker://weiyigeek/kaniko-executor:v1.13.0
         #skopeo copy docker://docker.io/library/python:3.11.6-slim  docker://registry.cn-shanghai.aliyuncs.com/dockerimgtools/dockerimgtools:python.3.11.6-slim
-        skopeo copy docker://us-central1-docker.pkg.dev/keephq/keep/keep-ui  docker://registry.cn-shanghai.aliyuncs.com/dockerimgtools/dockerimgtools:keep-ui 
+        skopeo copy docker://us-central1-docker.pkg.dev/keephq/keep/keep-api  docker://registry.cn-shanghai.aliyuncs.com/dockerimgtools/dockerimgtools:keep-api
