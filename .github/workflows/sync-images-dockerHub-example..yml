@@ -35,6 +35,6 @@ jobs:
       run: |
         #!/usr/bin/env bash
         #skopeo copy docker://gcr.io/kaniko-project/executor:v1.13.0 docker://weiyigeek/kaniko-executor:v1.13.0
-        skopeo copy docker://litellm/litellm  docker://registry.cn-shanghai.aliyuncs.com/dockerimgtools/dockerimgtools:litellm
-        #skopeo copy docker://docker.io/library/litellm/litellm  docker://registry.cn-shanghai.aliyuncs.com/dockerimgtools/dockerimgtools:litellm
+        #skopeo copy docker://litellm/litellm  docker://registry.cn-shanghai.aliyuncs.com/dockerimgtools/dockerimgtools:litellm
+        skopeo copy docker://docker.io/library/postgres:16  docker://registry.cn-shanghai.aliyuncs.com/dockerimgtools/dockerimgtools:postgres.16
         #skopeo copy docker://us-central1-docker.pkg.dev/keephq/keep/keep-api  docker://registry.cn-shanghai.aliyuncs.com/dockerimgtools/dockerimgtools:keep-api
