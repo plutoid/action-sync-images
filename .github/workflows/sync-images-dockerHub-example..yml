@@ -36,5 +36,5 @@ jobs:
         #!/usr/bin/env bash
         #skopeo copy docker://gcr.io/kaniko-project/executor:v1.13.0 docker://weiyigeek/kaniko-executor:v1.13.0
         #skopeo copy docker://litellm/litellm  docker://registry.cn-shanghai.aliyuncs.com/dockerimgtools/dockerimgtools:litellm
-        skopeo copy docker://ghcr.io/berriai/litellm:main-latest  docker://registry.cn-shanghai.aliyuncs.com/dockerimgtools/dockerimgtools:litellm.main-latest
+        skopeo copy docker://nvidia  docker://registry.cn-shanghai.aliyuncs.com/dockerimgtools/dockerimgtools:nvidia
         #skopeo copy docker://us-central1-docker.pkg.dev/keephq/keep/keep-api  docker://registry.cn-shanghai.aliyuncs.com/dockerimgtools/dockerimgtools:keep-api
