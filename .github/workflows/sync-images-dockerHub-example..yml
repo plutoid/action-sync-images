@@ -37,5 +37,5 @@ jobs:
         #skopeo copy docker://gcr.io/kaniko-project/executor:v1.13.0 docker://weiyigeek/kaniko-executor:v1.13.0
         #skopeo copy docker://litellm/litellm  docker://registry.cn-shanghai.aliyuncs.com/dockerimgtools/dockerimgtools:litellm
         #skopeo copy docker://docker.io/library/nvidia  docker://registry.cn-shanghai.aliyuncs.com/dockerimgtools/dockerimgtools:nvidia
-        #skopeo copy docker://us-central1-docker.pkg.dev/keephq/keep/keep-api:0.44.1  docker://registry.cn-shanghai.aliyuncs.com/dockerimgtools/dockerimgtools:keep-api:0.44.1
-        skopeo copy docker://us-central1-docker.pkg.dev/keephq/keep/keep-ui:0.44.1  docker://registry.cn-shanghai.aliyuncs.com/dockerimgtools/dockerimgtools:keep-ui:0.44.1
+        #skopeo copy docker://us-central1-docker.pkg.dev/keephq/keep/keep-api:0.44.1  docker://registry.cn-shanghai.aliyuncs.com/dockerimgtools/dockerimgtools:keep-api.0.44.1
+        skopeo copy docker://us-central1-docker.pkg.dev/keephq/keep/keep-ui:0.44.1  docker://registry.cn-shanghai.aliyuncs.com/dockerimgtools/dockerimgtools:keep-ui.0.44.1
