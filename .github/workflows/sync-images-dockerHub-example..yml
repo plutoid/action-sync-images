@@ -1,4 +1,4 @@
-# 工作流名称
+ 工作流名称
 name: Sync-Images-to-DockerHub-Example
 # 工作流运行时显示名称
 run-name: ${{ github.actor }} is Sync Images to DockerHub.
@@ -36,6 +36,6 @@ jobs:
         #!/usr/bin/env bash
         #skopeo copy docker://gcr.io/kaniko-project/executor:v1.13.0 docker://weiyigeek/kaniko-executor:v1.13.0
         #skopeo copy docker://litellm/litellm  docker://registry.cn-shanghai.aliyuncs.com/dockerimgtools/dockerimgtools:litellm
-        skopeo copy docker://docker.io/library/archlinux/archlinux:base-devel  docker://registry.cn-shanghai.aliyuncs.com/dockerimgtools/dockerimgtools:archlinux/archlinux.base-devel
+        skopeo copy docker://docker.io/library/archlinux/archlinux:base-devel  docker://registry.cn-shanghai.aliyuncs.com/dockerimgtools/dockerimgtools:archlinux.base-devel
         #skopeo copy docker://us-central1-docker.pkg.dev/keephq/keep/keep-api:0.44.1  docker://registry.cn-shanghai.aliyuncs.com/dockerimgtools/dockerimgtools:keep-api.0.44.1
         #skopeo copy docker://us-central1-docker.pkg.dev/keephq/keep/keep-ui:0.44.1  docker://registry.cn-shanghai.aliyuncs.com/dockerimgtools/dockerimgtools:keep-ui.0.44.1
