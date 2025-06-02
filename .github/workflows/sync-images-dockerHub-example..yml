@@ -36,6 +36,6 @@ jobs:
         #!/usr/bin/env bash
         #skopeo copy docker://gcr.io/kaniko-project/executor:v1.13.0 docker://weiyigeek/kaniko-executor:v1.13.0
         #skopeo copy docker://litellm/litellm  docker://registry.cn-shanghai.aliyuncs.com/dockerimgtools/dockerimgtools:litellm
-        skopeo copy docker://emby/embyserver_arm32v7:4.9.1.0  docker://registry.cn-shanghai.aliyuncs.com/dockerimgtools/dockerimgtools:embyserver_arm32v7.4.9.1.0
+        skopeo copy docker://xhongc/music_tag_web  docker://registry.cn-shanghai.aliyuncs.com/dockerimgtools/dockerimgtools:music_tag_web
         #skopeo copy docker://us-central1-docker.pkg.dev/keephq/keep/keep-api:0.44.1  docker://registry.cn-shanghai.aliyuncs.com/dockerimgtools/dockerimgtools:keep-api.0.44.1
         #skopeo copy docker://us-central1-docker.pkg.dev/keephq/keep/keep-ui:0.44.1  docker://registry.cn-shanghai.aliyuncs.com/dockerimgtools/dockerimgtools:keep-ui.0.44.1
