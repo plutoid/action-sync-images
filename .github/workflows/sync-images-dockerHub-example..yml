@@ -36,6 +36,6 @@ jobs:
         #!/usr/bin/env bash
         #skopeo copy docker://gcr.io/kaniko-project/executor:v1.13.0 docker://weiyigeek/kaniko-executor:v1.13.0
         #skopeo copy docker://litellm/litellm  docker://registry.cn-shanghai.aliyuncs.com/dockerimgtools/dockerimgtools:litellm
-        skopeo copy docker://yulonger/docker-fortivpn-clash-aarch64:20230128  docker://registry.cn-shanghai.aliyuncs.com/dockerimgtools/dockerimgtools:docker-fortivpn-clash-aarch64.20230128
+        skopeo copy docker://harryliu888/audio-notes  docker://registry.cn-shanghai.aliyuncs.com/dockerimgtools/dockerimgtools:audio-notes
         #skopeo copy docker://us-central1-docker.pkg.dev/keephq/keep/keep-api:0.44.1  docker://registry.cn-shanghai.aliyuncs.com/dockerimgtools/dockerimgtools:keep-api.0.44.1
         #skopeo copy docker://us-central1-docker.pkg.dev/keephq/keep/keep-ui:0.44.1  docker://registry.cn-shanghai.aliyuncs.com/dockerimgtools/dockerimgtools:keep-ui.0.44.1
